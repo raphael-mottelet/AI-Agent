@@ -1,10 +1,31 @@
-from openai import OpenAI
+import os
 import json
-
+from openai import OpenAI
 import gpt_functions
+from agent_context import get_initial_context
+from chat_history import save_chat_history, load_chat_history
 
-# Set your OpenAI API key here
-OpenAI.api_key = "add your key in here"
+# Définir la clé API directement
+OpenAI.api_key = "insert key in here"
+
+def provide_download_link(filename):
+
+    download_dir = "download"
+    file_path = os.path.join(download_dir, filename)
+    
+    # Vérifier si le répertoire "download" existe, sinon le créer
+    if not os.path.exists(download_dir):
+        os.makedirs(download_dir)
+    
+    # Créer un fichier fictif pour les tests
+    with open(file_path, "w") as f:
+        f.write("Contenu fictif du fichier.")
+    
+    # Construire le lien de téléchargement
+    file_basename = os.path.basename(file_path)
+    download_link = f"<a href='{file_path}' download='{file_basename}'>Télécharger {file_basename}</a>"
+    
+    return download_link
 
 def parse_function_response(message):
     function_call = message.get("function_call")
@@ -28,51 +49,43 @@ def parse_function_response(message):
 
     return function_name, function_response
 
-def run_conversation(message, messages=[]):
-    messages.append(message)
-
-    try:
-        client = OpenAI(api_key=OpenAI.api_key)
-        response = client.chat.completions.create(
-            model="gpt-3.5-turbo",
-            messages=messages,
-        )
-    except Exception as e:
-        print(f"Erreur lors de la création de la completion : {e}")
-        return
-
-    if response.choices:
-        message_content = response.choices[0].message.get("content", response.choices[0].message.get("text"))
-        messages.append({"role": "system", "content": message_content})
-
-        if "function_call" in message:
-            function_name, function_response = parse_function_response(message)
-            message = {
-                "role": "function",
-                "name": function_name,
-                "content": function_response
-            }
-        else:
-            user_message = input("GPT: " + message_content + "\nYou: ")
+def run_conversation(messages=[]):
+    while True:
+        try:
+            user_message = input("Vous: ")
             message = {
                 "role": "user",
                 "content": user_message
             }
+            messages.append(message)
 
-        run_conversation(message, messages)
+            client = OpenAI(api_key=OpenAI.api_key)
+            response = client.chat.completions.create(
+                model="gpt-3.5-turbo",
+                messages=messages,
+            )
+        except Exception as e:
+            print(f"Erreur lors de la création de la completion : {e}")
+            return
+
+        message_obj = response.choices[0].message
+        if hasattr(message_obj, 'content'):
+            message_content = message_obj.content
+        elif hasattr(message_obj, 'text'):
+            message_content = message_obj.text
+        else:
+            message_content = "No content available."
+        messages.append({"role": "system", "content": message_content})
+
+        # Condition de sortie de la boucle
+        if message_content == "Conversation terminée":
+            break
+
+        print(f"GPT: {message_content}")
+
+        # Sauvegarder l'historique après chaque interaction
+        save_chat_history(messages)
 
 if __name__ == "__main__":
-    messages = [
-        {
-            "role": "system",
-            "content": "You are an AI bot that can do everything using function calls. When you are asked to do something, use the function call you have available and then respond with a message confirming what you have done."
-        }
-    ]
-
-    user_message = input("GPT: What do you want to do?\nYou: ")
-    message = {
-        "role": "user",
-        "content": user_message
-    }
-
-    run_conversation(message, messages)
+    messages = get_initial_context()  # Initialize the agent with the context in French
+    run_conversation(messages)
