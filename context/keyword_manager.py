@@ -1,4 +1,7 @@
-from context_manager import ContextManager  # Importation du gestionnaire de contexte
+import sys
+sys.path.append('..')
+
+from context.context_manager import ContextManager  # Importation du gestionnaire de contexte
 
 DGESCO_keywords = ["dgesco", "direction générale de l'enseignement scolaire", "edouard geffray", "107 rue de grenelle", "paris", "educatio.gouv.fr", "eduscol.education.fr"]
 

@@ -1,3 +1,6 @@
+import sys
+sys.path.append('..')
+
 def get_initial_context():
     return [
         {

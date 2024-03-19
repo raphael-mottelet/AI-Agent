@@ -1,3 +1,6 @@
+import sys
+sys.path.append('..')
+
 class ContextManager:
     def __init__(self, context_keywords):
         self.context_keywords = context_keywords

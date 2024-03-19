@@ -1,13 +1,15 @@
+import sys
+sys.path.append('..')
+
 import json
 #import os
 from openai import OpenAI
-from agent_context import get_initial_context
-from chat_history import save_chat_history, load_chat_history
-from context_manager import ContextManager
-from keyword_manager import context_manager  # Importation du gestionnaire de contexte des mots-clés
-
+from context.agent_context import get_initial_context
+from chat_history.chat_history import save_chat_history, load_chat_history
+from context.context_manager import ContextManager
+from context.keyword_manager import context_manager
 # Définir la clé API directement
-OpenAI.api_key = "insert your key in here"
+OpenAI.api_key = "insert your key here"
 
 def load_chat_history(messages):
     try:

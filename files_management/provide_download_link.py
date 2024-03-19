@@ -1,3 +1,6 @@
+import sys
+sys.path.append('..')
+
 import os
 
 def provide_download_link(filename):

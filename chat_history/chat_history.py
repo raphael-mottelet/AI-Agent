@@ -1,3 +1,9 @@
+import sys
+sys.path.append('..')
+
+import sys
+sys.path.append('..')
+
 import json
 
 #fichier permettant  de sauvegarder l'historique des échanges entre gpt et user, sous la forme d'un fichier json.

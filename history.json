@@ -189,26 +189,10 @@
     },
     {
         "role": "user",
-        "content": "données json historique"
+        "content": "bonjour"
     },
     {
         "role": "system",
-        "content": "Je suis désolé, je ne suis pas programmé pour extraire des données au format JSON. Si vous avez besoin d'autres informations, n'hésitez pas à me le dire !"
-    },
-    {
-        "role": "user",
-        "content": "décris moi comment est structuré la DGESCO"
-    },
-    {
-        "role": "system",
-        "content": "La DGESCO est structurée de la manière suivante :\n\n1. Direction générale :\n   - Directeur général : Édouard Geffray\n   - Cabinet : Amélie Miermont\n\n2. Départements :\n   - Ressources humaines et affaires générales : Sophie Marion\n   - Numérique pour l'éducation : Audran Le Baron\n   - Instruction publique et action pédagogique\n\n3. Services :\n   - Budget et politiques éducatives territoriales : Christophe Gehin\n   - Accompagnement des politiques éducatives\n\nChacun de ces départements et services comporte des bureaux et des missions spécialisées dans des domaines spécifiques de l'enseignement scolaire.\n\nN'hésitez pas si vous avez besoin de plus de détails sur un service en particulier !"
-    },
-    {
-        "role": "user",
-        "content": "salut !"
-    },
-    {
-        "role": "system",
-        "content": "Bonjour ! Comment puis-je vous aider aujourd'hui ?"
+        "content": "Bonjour! Comment puis-je vous aider aujourd'hui?"
     }
 ]
