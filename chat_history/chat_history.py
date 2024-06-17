@@ -6,7 +6,6 @@ sys.path.append('..')
 
 import json
 
-#fichier permettant  de sauvegarder l'historique des échanges entre gpt et user, sous la forme d'un fichier json.
 def save_chat_history(messages, file_path="history.json"):
     try:
         with open(file_path, "w", encoding='utf-8') as f:
