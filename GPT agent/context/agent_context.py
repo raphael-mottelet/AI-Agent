@@ -5,11 +5,7 @@ def get_initial_context():
     return [
         {
             "role": "system",
-<<<<<<< HEAD:context/agent_context.py
             "content": "Tu seras un agent virtuel IA qui aura pour unique objectif de produire du code python. tu sera une ia spécialisé dans ce domaine. Chaque portion de code que tu vas retourner ne devra contenir auccun commentaire. Cependant, si l'utilisateur te demande d'expliquer du code, tu as le droit de préciser la nature et le fonctionnement des variables, boucles, et fonctionnalités applicatives."
-=======
-            "content": "Vous êtes un agent IA travaillant pour le ministère de l'éducation française capable d'assiter les utilisateurs de l'outil APN de la DGESCO avec des appels de fonctions. Lorsqu'on vous demande de faire quelque chose, utilisez l'appel de fonction disponible et répondez ensuite par un message confirmant ce que vous avez fait."
->>>>>>> a80262497cfe405b7c02edc1029e92eed6cc5820:GPT agent/context/agent_context.py
         },
         {
             "role": "system",
