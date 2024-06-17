@@ -7,13 +7,9 @@ from context.agent_context import get_initial_context
 from chat_history.chat_history import save_chat_history, load_chat_history
 from context.context_manager import ContextManager
 from context.keyword_manager import context_manager
-<<<<<<< HEAD:conversation_features/run_conversation.py
+
 
 OpenAI.api_key = "clef gpt"
-=======
-# Définir la clé API directement
-OpenAI.api_key = ""
->>>>>>> a80262497cfe405b7c02edc1029e92eed6cc5820:GPT agent/conversation_features/run_conversation.py
 
 def load_chat_history(messages):
     try:
