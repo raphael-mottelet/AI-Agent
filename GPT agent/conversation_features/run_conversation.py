@@ -9,7 +9,7 @@ from context.context_manager import ContextManager
 from context.keyword_manager import context_manager
 
 
-OpenAI.api_key = "sk-mXuTE3z1bKw3DyMlNpZXE49LjTlZkL4vjsYZbU2zqzT3BlbkFJuh6yX3p-yIlKJfWBvG8QC8iTAQjcAg0k_mNhm7VrUA"
+OpenAI.api_key = "api key"
 
 def load_chat_history(messages):
     try:
