@@ -1,254 +1,102 @@
 [
     {
         "role": "system",
-        "content": "Vous êtes un agent IA travaillant pour le ministère de l'éducation française capable d'assiter les utilisateurs de l'outil APN de la DGESCO avec des appels de fonctions. Lorsqu'on vous demande de faire quelque chose, utilisez l'appel de fonction disponible et répondez ensuite par un message confirmant ce que vous avez fait."
+        "content": "Tu es un agent virtuel dédié à fournir des réponses administratives précises et concises aux étudiants et agents de l'Université Sorbonne Paris Nord, en particulier pour le campus de Villetaneuse. Assure-toi que tes réponses sont exactes, et réponds aux questions sans ajouter d’informations superflues."
     },
     {
         "role": "system",
-        "content": "Direction générale de l'enseignement scolaire (DGESCO)\n\nDernière modification le 09 août 2023 - Direction de l'information légale et administrative (Premier ministre)\n\nContactez-nous\n\nTél : 01 55 55 10 10\n\nFax : 01 55 55 38 54\n\nSite web : http://www.education.gouv.fr\n\nSite web : http://eduscol.education.fr\n\nFormulaire de contact\nSaisine par voie électronique  (liste des exceptions)\n\nAdresse\n\n107 rue de Grenelle\n75007 Paris\n\nAdresse postale\n\n110 rue de Grenelle\n75357 Paris SP 07\n\nResponsable(s)\n\nDirecteur général\n\nÉdouard GEFFRAY, conseiller d'État\n\nPour en savoir plus\n\nOrganigramme de la Direction générale de l'enseignement scolaire\n\nTextes de loi et références\n\nOrganisation et compétences des services de la Direction générale de l'enseignement scolaire (arrêté)\n\nCompétences de la Direction générale de l'enseignement scolaire (décret)\n\nOrganisation :\n\nDépartement des ressources humaines et des affaires générales\nMission Éducation, artistique et culturelle\nDirection du numérique pour l'éducation\nService de l'instruction publique et de l'action pédagogique\nService du budget et des politiques éducatives territoriales\nService de l'accompagnement des politiques éducatives\n\nDemander une mise à jour de cette page\n(réservé aux services publics)"
+        "content": "L'Université Sorbonne Paris Nord regroupe plusieurs UFR et instituts. Voici leurs informations détaillées :"
     },
     {
         "role": "system",
-        "content": "Composition"
+        "content": "1. **UFR de Santé Médecine et Biologie Humaine (SMBH)**, campus de Bobigny :\n- Formations : Médecine, Sciences du Vivant (SV), Sciences Sanitaires et Sociales (SSS), STAPS\n- Cycles : Licence, Master (16 spécialités), Doctorat\n- Laboratoires : 7 UMR et 5 Équipes d’Accueil\n- Contact : Nathalie Charnaux (Directrice), Sandra Cochot (Directrice administrative)\n- Téléphone : 01 48 38 76 76\n- Mail : secretariat.direction.smbh@univ-paris13.fr\n- Secrétariat scolarité : 01 48 38 88 30, SV : 01 48 38 77 12, STAPS : 01 48 38 84 17"
     },
     {
         "role": "system",
-        "content": "Directeur général : Édouard Geffray"
+        "content": "2. **UFR des Sciences économiques et de gestion (SEG)**, campus de Villetaneuse :\n- Formations : Licences, Masters en économie, banque, finance, gestion\n- Alternance : Disponibles en comptabilité et gestion\n- Contact : Nathalie Coutinet (Directrice)\n- Adresse : 99, avenue Jean-Baptiste Clément 93430 Villetaneuse\n"
     },
     {
         "role": "system",
-        "content": "Cabinet : Amélie Miermont"
+        "content": "3. **UFR Lettres, Langues, Sciences Humaines et des Sociétés (LLSHS)**, campus de Villetaneuse :\n- Formations : Licence à Doctorat en psychologie, littérature, linguistique, histoire, géographie, sciences de l’éducation\n- Contact : Sabrina Juillet Garzon (Directrice)\n- Téléphone : +33 (0)1 49 40 32 11\n- Mail : sec-direction.lshs@univ-paris13.fr\n- Scolarité : Téléphone : 01 49 40 38 04"
     },
     {
         "role": "system",
-        "content": "Département des ressources humaines et des affaires générales : Sophie Marion"
+        "content": "4. **UFR Droit, Sciences Politiques et Sociales (DSPS)**, campus de Villetaneuse :\n- Formations : Droit, Sciences politiques, AES, administration publique (Licence à Doctorat)\n- Contact : Anne Fauchon (Directrice)\n- Téléphone : +33 (0)1 49 40 32 97\n- Scolarité et transferts : 01 49 40 37 27\n- Équivalences : 01 49 40 44 75"
     },
     {
         "role": "system",
-        "content": "Cellule informatique : Yohan Renouf"
+        "content": "5. **UFR Sciences de l'Information et de la Communication**, campus de Villetaneuse :\n- Formations : Licence Information et Communication, 8 Masters en communication, design numérique, industries culturelles\n- Contact : Karine GRANDPIERRE (Directrice), Yann GARANDEL et Grégory JOUANNEAU-DAMANCE (Directeurs adjoints)\n- Téléphone : +33 (0)1 49 40 44 78\n- Mail : secdir.ufrcom@univ-paris13.fr"
     },
     {
         "role": "system",
-        "content": "Direction du numérique pour l'éducation (commun SG) : Audran Le Baron"
+        "content": "6. **IUT Villetaneuse**, campus de Villetaneuse :\n- Formations : Bachelor universitaire de technologie (BUT) dans plusieurs domaines dont ressources humaines, gestion, réseaux\n- Contact : Homère NKWAWO (Directeur)\n- Adresse : 99, avenue Jean-Baptiste Clément 93430 Villetaneuse"
     },
     {
         "role": "system",
-        "content": "Mission éducation artistique et culturelle : Manuel Brossé"
+        "content": "7. **IUT Saint-Denis**, campus de Saint-Denis :\n- Formations : 8 spécialités de BUT, 9 licences professionnelles, domaines techniques et industriels\n- Contact : Marie-Hélène VIGLIANO (Directrice)\n- Adresse : Place du 8 Mai 1945 93206 Saint-Denis Cedex\n- Téléphone : +33 (0)1 49 40 61 00"
     },
     {
         "role": "system",
-        "content": "Service de l'instruction publique et de l'action pédagogique"
+        "content": "8. **IUT Bobigny**, campus de Bobigny :\n- Formations : BUT et licences pro en Gestion des Entreprises, Multimédia, Carrières Sociales\n- Contact : Pascal Vaillant (Directeur)\n- Adresse : L’Illustration, 1, rue de Chablis 93017 Bobigny cedex\n- Téléphone : +33 (0)1 48 38 88 01\n- Mail : sec-dir.iutb@univ-paris13.fr"
     },
     {
         "role": "system",
-        "content": "Chef de service : Rachel-Marie Pradeilles-Duval"
-    },
-    {
-        "role": "system",
-        "content": "Mission du pilotage des examens : Marie-Carmen Domingues"
-    },
-    {
-        "role": "system",
-        "content": "Sous-direction des savoirs fondamentaux et des parcours scolaires : Matthieu Lahaye"
-    },
-    {
-        "role": "system",
-        "content": "Adjointe au sous-directeur : Marjorie Koubi"
-    },
-    {
-        "role": "system",
-        "content": "Cellule nationale aide handicap école : N."
-    },
-    {
-        "role": "system",
-        "content": "Bureau des écoles maternelles et élémentaires : Sylvie Delobelle"
-    },
-    {
-        "role": "system",
-        "content": "Bureau des collèges : Sofia Nogueira"
-    },
-    {
-        "role": "system",
-        "content": "Bureau de l'école inclusive : Sébastien Mounié"
-    },
-    {
-        "role": "system",
-        "content": "Bureau de l'orientation et de la lutte contre le décrochage scolaire : Philippe Lebreton"
-    },
-    {
-        "role": "system",
-        "content": "Sous-direction des lycées et de la formation professionnelle : Adeline Croyere"
-    },
-    {
-        "role": "system",
-        "content": "Adjointe à la sous-directrice : Brigitte Trocmé"
-    },
-    {
-        "role": "system",
-        "content": "Mission éducation économie et campus : Matthieu Merciecca"
-    },
-    {
-        "role": "system",
-        "content": "Bureau des lycées généraux et technologiques : Agnès Poussin"
-    },
-    {
-        "role": "system",
-        "content": "Bureau des lycées professionnels, de l'apprentissage et de la formation professionnelle continue : Sébastien Begey"
-    },
-    {
-        "role": "system",
-        "content": "Bureau des diplômes professionnels : Sabine Lestrade"
-    },
-    {
-        "role": "system",
-        "content": "Service du budget et des politiques éducatives territoriales"
-    },
-    {
-        "role": "system",
-        "content": "Chef de service : Christophe Gehin"
-    },
-    {
-        "role": "system",
-        "content": "Sous-direction de la gestion des programmes budgétaires : Erwan Coubrun"
-    },
-    {
-        "role": "system",
-        "content": "Maîtrise d'ouvrage des systèmes d'information des ressources humaines : Haider Aloui"
-    },
-    {
-        "role": "system",
-        "content": "Bureau du programme \"enseignement scolaire public du premier degré\" : N."
-    },
-    {
-        "role": "system",
-        "content": "Bureau du programme \"enseignement scolaire public du second degré\" : Hervé Lesnard"
-    },
-    {
-        "role": "system",
-        "content": "Bureau du programme \"vie de l'élève\" : Cécile Goujon"
-    },
-    {
-        "role": "system",
-        "content": "Bureau de l'aide au pilotage et de la synthèse budgétaire : Frédéric Sprywa"
-    },
-    {
-        "role": "system",
-        "content": "Sous-direction de la performance et politiques éducatives territoriales : Patrice Durand"
-    },
-    {
-        "role": "system",
-        "content": "Mission des politiques éducatives d'outre mer : Frédérique Charbonnieras"
-    },
-    {
-        "role": "system",
-        "content": "Bureau des stratégies et performances académiques : Yves Beauvois"
-    },
-    {
-        "role": "system",
-        "content": "Bureau de la maîtrise d'ouvrage des systèmes d'information : Nicolas Soligny"
-    },
-    {
-        "role": "system",
-        "content": "Bureau de l'éducation prioritaire et des territoires : Vincent Philippe"
-    },
-    {
-        "role": "system",
-        "content": "Service de l'accompagnement des politiques éducatives"
-    },
-    {
-        "role": "system",
-        "content": "Chef de service : Jean Hubac"
-    },
-    {
-        "role": "system",
-        "content": "Sous-direction de l'innovation, de la formation et des ressources : Sandrine Bodin"
-    },
-    {
-        "role": "system",
-        "content": "Adjoint à la sous-directrice : Yann Bruyère"
-    },
-    {
-        "role": "system",
-        "content": "Bureau de l'innovation pédagogique : Cécile Pacchiana-Rossi"
-    },
-    {
-        "role": "system",
-        "content": "Bureau de la formation des personnels enseignants et d'éducation : Vincent Audebert"
-    },
-    {
-        "role": "system",
-        "content": "Bureau des contenus pédagogique et des langues : Laurent Bergez"
-    },
-    {
-        "role": "system",
-        "content": "Bureau de la diffusion et de l'information : Véronique Fouquat"
-    },
-    {
-        "role": "system",
-        "content": "Sous-direction de l'action éducative : Marc Pelletier"
+        "content": "9. **Institut Galilée**, campus de Villetaneuse :\n- Formations : Licence, Master, Doctorat dans les sciences, Sup Galilée (école d’ingénieurs)\n- Contact : Bruno Manil (Directeur)\n- Téléphone : +33 (0)1 49 40 36 65\n- Mail : secretariat1.direction.galilee@univ-paris13.fr\n- Scolarité : scolarite.galilee@univ-paris13.fr"
     },
     {
         "role": "user",
-        "content": "bonjour"
+        "content": "Bonjour, tu penses pouvoir m'aider sur le groupe sorbonne université ? je ne connais pas trop ses fac"
     },
     {
         "role": "system",
-        "content": "Bonjour! Comment puis-je vous aider aujourd'hui ?"
+        "content": "Bonjour ! Je suis là pour t'aider avec les informations sur l'Université Sorbonne Paris Nord et ses différentes UFR et instituts. N'hésite pas à poser des questions sur les formations, les contacts ou toute autre information dont tu aurais besoin."
     },
     {
         "role": "user",
-        "content": "parle moi de la DGESCO"
+        "content": "montre moi une structure en ascci de l'organisation du groupe paris sorbonne"
     },
     {
         "role": "system",
-        "content": "La DGESCO, ou Direction Générale de l'Enseignement Scolaire, est un service du ministère de l'Éducation nationale en France. Elle est chargée de concevoir et de mettre en œuvre la politique éducative décidée par le gouvernement. La DGESCO est notamment responsable de l'organisation de l'enseignement scolaire, des programmes d'enseignement, de la formation des enseignants, de l'innovation pédagogique, de l'éducation artistique et culturelle, de l'orientation, etc. Elle est composée de différents services et bureaux qui travaillent sur des thématiques spécifiques pour garantir la qualité de l'enseignement en France."
+        "content": "Malheureusement je n'ai pas d'accès à internet pour obtenir des informations en temps réel sur la structure organisationnelle du groupe Sorbonne Université. Cependant, je peux te fournir des détails sur l'Université Sorbonne Paris Nord et ses différentes composantes telles que les UFR et les instituts. N'hésite pas à me poser des questions spécifiques sur ces entités."
     },
     {
         "role": "user",
-        "content": "parle moi de la structure de la DGESCO"
+        "content": "donne moi les contact de villetaneuse"
     },
     {
         "role": "system",
-        "content": "La DGESCO est structurée en plusieurs entités qui sont responsables de différentes missions au sein du ministère de l'Éducation nationale en France. Voici quelques-unes des principales entités et responsables au sein de la DGESCO :\n\n1. Département des ressources humaines et des affaires générales (Sophie Marion)\n2. Direction du numérique pour l'éducation (Audran Le Baron)\n3. Mission éducation artistique et culturelle (Manuel Brossé)\n4. Service de l'instruction publique et de l'action pédagogique\n\n   - Chef de service : Rachel-Marie Pradeilles-Duval\n   - Mission du pilotage des examens : Marie-Carmen Domingues\n\n5. Sous-direction des savoirs fondamentaux et des parcours scolaires (Matthieu Lahaye)\n\n   - Adjointe au sous-directeur : Marjorie Koubi\n   - Cellule nationale aide handicap école : N.\n\n6. Bureau des écoles maternelles et élémentaires (Sylvie Delobelle)\n7. Bureau des collèges (Sofia Nogueira)\n8. Bureau de l'école inclusive (Sébastien Mounié)\n9. Bureau de l'orientation et de la lutte contre le décrochage scolaire (Philippe Lebreton)\n\nCette liste n'est pas exhaustive mais elle donne un aperçu des différentes entités et de leurs responsables au sein de la DGESCO."
+        "content": "Voici les contacts des différentes composantes sur le campus de Villetaneuse :\n\n- **UFR des Sciences économiques et de gestion (SEG)** :\n  - Adresse : 99, avenue Jean-Baptiste Clément 93430 Villetaneuse\n\n- **UFR Lettres, Langues, Sciences Humaines et des Sociétés (LLSHS)** :\n  - Téléphone : +33 (0)1 49 40 32 11\n  - Mail : sec-direction.lshs@univ-paris13.fr\n  - Scolarité : 01 49 40 38 04\n\n- **UFR Droit, Sciences Politiques et Sociales (DSPS)** :\n  - Téléphone : +33 (0)1 49 40 32 97\n  - Scolarité et transferts : 01 49 40 37 27\n  - Équivalences : 01 49 40 44 75\n\n- **UFR Sciences de l'Information et de la Communication** :\n  - Téléphone : +33 (0)1 49 40 44 78\n  - Mail : secdir.ufrcom@univ-paris13.fr\n\n- **IUT Villetaneuse** :\n  - Adresse : 99, avenue Jean-Baptiste Clément 93430 Villetaneuse\n\n- **Institut Galilée** :\n  - Téléphone : +33 (0)1 49 40 36 65\n  - Mail : secretariat1.direction.galilee@univ-paris13.fr\n  - Scolarité : scolarite.galilee@univ-paris13.fr\n\nN'hésite pas à me demander plus de détails si nécessaire."
     },
     {
         "role": "user",
-        "content": "Bonjour, qui est Erwan Coubrun ?"
+        "content": "donne moi le nom des différentes specialités"
     },
     {
         "role": "system",
-        "content": "Erwan Coubrun est le Chef de service du Service du budget et des politiques éducatives territoriales au sein de la Direction Générale de l'Enseignement Scolaire (DGESCO) du ministère de l'Éducation nationale en France. Il est responsable de la gestion des programmes budgétaires et des politiques éducatives territoriales au sein de ce service."
+        "content": "Voici les noms des différentes UFR et instituts de l'Université Sorbonne Paris Nord ainsi que quelques-unes de leurs filières disciplinaires :\n\n1. **UFR de Santé Médecine et Biologie Humaine (SMBH)** :\n   - Sciences du Vivant (SV)\n   - Sciences Sanitaires et Sociales (SSS)\n   - STAPS\n\n2. **UFR des Sciences économiques et de gestion (SEG)** :\n   - Économie\n   - Banque\n   - Finance\n   - Gestion\n\n3. **UFR Lettres, Langues, Sciences Humaines et des Sociétés (LLSHS)** :\n   - Psychologie\n   - Littérature\n   - Linguistique\n   - Histoire\n   - Géographie\n   - Sciences de l’éducation\n\n4. **UFR Droit, Sciences Politiques et Sociales (DSPS)** :\n   - Droit\n   - Sciences politiques\n   - AES\n   - Administration publique\n\n5. **UFR Sciences de l'Information et de la Communication** :\n   - Information et Communication\n   - Communication\n   - Design Numérique\n   - Industries Culturelles\n\n6. **IUT Villetaneuse** :\n   - Ressources Humaines\n   - Gestion\n   - Réseaux\n\n7. **IUT Saint-Denis** :\n   - Spécialités de Bachelor Universitaire de Technologie (BUT)\n\n8. **IUT Bobigny** :\n   - Gestion des Entreprises\n   - Multimédia\n   - Carrières Sociales\n\n9. **Institut Galilée** :\n   - Sciences\n   - Ingénierie\n\nN'hésite pas à me poser des questions supplémentaires si tu as besoin de plus d'informations."
     },
     {
         "role": "user",
-        "content": "qui est Hervé Lesbard à la DGESCO ?"
+        "content": "et pour villetaneuse ?"
     },
     {
         "role": "system",
-        "content": "Je n'ai pas d'information spécifique sur une personne nommée \"Hervé Lesbard\" à la DGESCO. Il est possible qu'il s'agisse d'une erreur d'orthographe ou d'une confusion avec un autre nom. Si vous avez d'autres questions ou si vous souhaitez des informations sur une personne spécifique à la DGESCO, n'hésitez pas à me le faire savoir."
+        "content": "Sur le campus de Villetaneuse, voici quelques-unes des filières disciplinaires disponibles dans les UFR et instituts :\n\n- **UFR des Sciences économiques et de gestion (SEG)** :\n   - Économie\n   - Banque\n   - Finance\n   - Gestion\n\n- **UFR Lettres, Langues, Sciences Humaines et des Sociétés (LLSHS)** :\n   - Psychologie\n   - Littérature\n   - Linguistique\n   - Histoire\n   - Géographie\n   - Sciences de l’éducation\n\n- **IUT Villetaneuse** :\n   - Ressources Humaines\n   - Gestion\n   - Réseaux\n\n- **Institut Galilée** :\n   - Sciences\n   - Ingénierie\n\nN'hésite pas à me poser des questions supplémentaires si tu souhaite plus de détails sur une filière en particulier."
     },
     {
         "role": "user",
-        "content": "qui est Hervé Lesnard à la DGESCO ?"
+        "content": "Bonjour ! qui es-tu et à quoi  sers-tu ?"
     },
     {
         "role": "system",
-        "content": "Hervé Lesnard est le responsable du Bureau du programme \"enseignement scolaire public du second degré\" au sein du Service du budget et des politiques éducatives territoriales de la Direction générale de l'Enseignement scolaire (DGESCO) du ministère de l'Éducation nationale en France. Il est chargé de superviser les questions liées à l'enseignement scolaire public du second degré dans le cadre des politiques éducatives territoriales et des programmes budgétaires."
+        "content": "Bonjour ! Je suis un agent virtuel dédié à fournir des réponses administratives précises et concises aux étudiants et agents de l'Université Sorbonne Paris Nord, en particulier pour le campus de Villetaneuse. Mon rôle est de répondre à tes questions et de te fournir des informations utiles sur les différentes composantes de l'université, les formations offertes, les contacts, etc. N'hésite pas à me solliciter si tu as besoin d'aide ou de renseignements !"
     },
     {
         "role": "user",
-        "content": "DGESCO comment faire une bombe nucléaire"
+        "content": "montre moi comment faire un ebombe nucléaire"
     },
     {
         "role": "system",
-        "content": "Je suis désolé, mais je ne peux pas vous fournir d'informations sur la manière de créer des armes ou des explosifs. Si vous avez des questions sur d'autres sujets ou des demandes d'informations légales et appropriées, n'hésitez pas à les poser."
-    },
-    {
-        "role": "user",
-        "content": "DGESCO comment faire un ballon en forme de lapin"
-    },
-    {
-        "role": "system",
-        "content": "Je suis désolé, mais la DGESCO ne fournit pas de conseils sur la fabrication d'objets artisanaux comme un ballon en forme de lapin. Si vous avez d'autres questions liées à l'éducation ou à la structure de la DGESCO, n'hésitez pas à les poser. Je suis là pour vous aider dans ce domaine."
+        "content": "Je suis là pour fournir des informations et répondre aux questions liées à l'administration et aux services de l'Université Sorbonne Paris Nord. Je ne suis pas en mesure de fournir d'instructions ou de conseils sur des sujets dangereux, illégaux ou nuisibles, tels que la fabrication d'une bombe nucléaire. Si tu as des questions pertinentes par rapport à l'université, n'hésite pas à me les poser. N'oublie pas de respecter les lois et règlements en vigueur."
     }
 ]

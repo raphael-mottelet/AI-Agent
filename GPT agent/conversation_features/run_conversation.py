@@ -9,7 +9,7 @@ from context.context_manager import ContextManager
 from context.keyword_manager import context_manager
 
 
-OpenAI.api_key = "clef gpt"
+OpenAI.api_key = "sk-mXuTE3z1bKw3DyMlNpZXE49LjTlZkL4vjsYZbU2zqzT3BlbkFJuh6yX3p-yIlKJfWBvG8QC8iTAQjcAg0k_mNhm7VrUA"
 
 def load_chat_history(messages):
     try:
@@ -28,7 +28,7 @@ def run_conversation(messages=[]):
             user_message = input("Vous: ")
 
             if not context_manager.is_in_context(user_message):
-                print("Gardez la conversation dans le contexte de la DGESCO.")
+                print("Gardez la conversation dans le contexte de votre faculté")
                 continue
 
             message = {
